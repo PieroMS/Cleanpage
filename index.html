@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="imagen/favicon.ico">
+    <script src="https://kit.fontawesome.com/da4ed39a19.js" crossorigin="anonymous"></script>
+    <script defer src="code.js"></script>
+    <title>Supreme Cleaning</title>
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo">
+            <i class="fa-sharp fa-solid fa-broom"></i>
+        </a>
+        <button class="button">
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </button>
+        <nav class="navbar">
+            <ul class="ul">
+                <li class="li li1"><a class="a" href="#home" class="link">Home</a></li>
+                <li class="li li2"><a class="a" href="#service" class="link">Services</a></li>
+                <li class="li li3"><a class="a" href="#teamgoal" class="link">Team & Goals</a></li>
+                <li class="li li4"><a class="a" href="#about" class="link">About us</a></li>
+                <li class="li li5"><a class="a" href="#contact" class="link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--SCRIPT PARA EL HEADER-->
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+        const header=document.querySelector('header');
+        header.classList.toggle("headerclass", window.scrollY>0); 
+        });
+    </script>
+    <!--SECTION-BACKGROUND-INTRODUCTION-->
+    <section class="home" id="home">
+        <div class="content">
+            <h1 class="subtit">SUPREME CLEANING!</h1>
+            <p>
+                Welcome to <span>Supreme Cleaning Services LLC</span>. The purpose of this portfolio
+                is to give insight on who we are as a company, our goals and a great way to learn 
+                about some of our service.  
+            </p>
+        </div>
+    </section>
+        <!--SECTION-SERVICES-->
+        <section class="service" id="service">
+            <div class="ser_tit">
+                <h2>Services</h2>
+            </div>
+            <div class="ser_row_one">
+                <div class="ser_row_box">
+                    <h3>Office Cleaning</h3>
+                    <img src="imagen/serone.jpg" alt="Image1" title="Office Cleaning" class="img1">
+                </div>
+                <div class="ser_row_box">
+                    <h3>Floor Care</h3>
+                    <img src="imagen/sertwo.jpg" alt="Image2" title="Floor Care" class="img2">
+                </div>
+                <div class="ser_row_box">
+                    <h3>Strip and Wax</h3>
+                    <img src="imagen/serthree.jpg" alt="Image3" title="Strip and Wax" class="img3">
+                </div>
+                <div class="ser_row_box">
+                    <h3>Full Disinfecting</h3>
+                    <img src="imagen/serfour.jpg" alt="Image4" title="Professional Disinfecting" class="img4">
+                </div>
+                <div class="ser_row_box">
+                    <h3>Restroom Upkeep</h3>
+                    <img src="imagen/serfive.jpg" alt="Image5" title="Restroom Upkeep" class="img5">
+                </div>
+                <div class="ser_row_box">
+                    <h3>Dust Control</h3>
+                    <img src="imagen/sersix.jpg" alt="Image6" title="Dust Control" class="img6">
+                </div>
+            </div>
+            <div class="sec_img_icon">
+                <div class="img_icon_content">
+                    <img src="imagen/easyico.png" alt="Error" title="Easy" class="img_icon_sec_icon">
+                    <h3>EASY</h3>
+                </div>
+                <div class="img_icon_content">
+                    <img src="imagen/confi.png" alt="Error" title="Trusted" class="img_icon_sec_icon">
+                    <h3>TRUSTED</h3>
+                </div>
+                <div class="img_icon_content">
+                    <img src="imagen/expert.png" alt="Error" title="Expert" class="img_icon_sec_icon">
+                    <h3>EXPERT</h3>
+                </div>
+            </div>
+        </section>
+           <!--SECTION-TEAMS&GOALS-->
+    <section class="teamgoal" id="teamgoal">
+        <h2 class="teamgoal_tit">Team & Goals</h2> 
+        <div class="teamgoal_box">
+            <div class="teamgoal_box_flex">
+                <figure class="teamgoal_box_flex_img">
+                    <img src="imagen/team_goal_1.jpg" alt="Error" title="TEAM" class="img">
+                </figure>
+                <div class="teamgoal_box_flex_content">
+                    <div>
+                        <h3>Team</h3>
+                        <p>
+                            Here at Supreme Cleaning we have a team of strong, passionate employees. Each
+                            one of our professional cleaners are highly trained and equipped to handie any 
+                            task clients would like to have performed.
+                        </p>
+                    </div>
+                </div>
+            </div>  
+            <div class="teamgoal_box_flex">
+                <figure class="teamgoal_box_flex_img">
+                    <img src="imagen/team_goal_2.jpg" alt="Error" title="GOALS" class="img">
+                </figure>
+                <div class="teamgoal_box_flex_content">
+                    <div>
+                        <h3>Goals</h3>
+                        <p>
+                            Here at Supreme Cleaning our goal is to have a clear understanding of all our 
+                            clients needs. We intend to maintain a clean sanitize and disinfectant space. 
+                            Communication and transparency with our clients is also very important and very 
+                            helpful.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>                 
+    </section>
+    <!--SECTION-ABOUT-->
+    <section class="sec_about" id="about">
+        <h2>About us</h2>
+        <div class="sec_about_content">
+            <figure class="about_img">
+                <img src="imagen/mgabout.jpg" alt="Image">
+            </figure>
+            <div class="about_text">
+                <p>
+                    Supreme Cleaning Services is considered to be one of the fastest growing companies
+                    in the industry. We take pride in providing our clients with supreme cleaning 
+                    services. Here at Supreme Cleaning, each of our services are tailored to fit our
+                    clients needs. This also allows a great custom experience with a professional
+                    cleaning service.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer class="footer" id="contact">
+        <div class="footer_content">
+            <h3>CONTACT US</h3>
+            <div class="icons_ct">
+                <i class="fa-solid fa-phone"></i>
+                <p>999-9999</p>
+            </div>
+            <div class="icons_ct">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:supremecleaning@gmail.com">supremecleaning@gmail.com</a>
+            </div>
+            <div class="icons_ct">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>United State 99999</p>
+            </div>
+        </div>
+        <div class="footer_content">
+            <h3>FOUNDER</h3>
+            <p class="boss">Barack Obama</p>
+            <p class="boss_date">Established in 2020</p>
+        </div>
+    </footer>
+</body>
+</html>
